@@ -127,6 +127,30 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+
+      {socialMediaLinks.hackerrank ? (
+        <a
+          href={socialMediaLinks.hackerrank}
+          className="icon-button hackerrank"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-hackerrank"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.leetcode ? (
+        <a
+          href={socialMediaLinks.leetcode}
+          className="icon-button leetcode"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fas fa-code"></i>
+          <span></span>
+        </a>
+      ) : null}
     </div>
   );
 }

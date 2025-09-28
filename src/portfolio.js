@@ -20,26 +20,29 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Madhuaravind P",
+  title: "Hi all, I'm Madhuaravind P",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Aspiring Data Analyst and Developer passionate about transforming raw data into actionable insights through scalable and sustainable solutions."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1TNPXOp74RA6GDe-PkvJ8lSpMy1Kja_S9/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Madhuarvind",
+  linkedin: "https://www.linkedin.com/in/madhuaravind-p-a18325290/",
+  gmail: "madhuaravind21@gmail.com",
+  gitlab: "https://gitlab.com/Madhuarvind",
+  facebook: "https://www.facebook.com/madhu.aravind.52",
+  medium: "https://medium.com/@madhuaravind21",
+  twitter: "https://x.com/madhuaravind21",
+  kaggle: "https://www.kaggle.com/madhuaravindp",
+  hackerrank: "https://www.hackerrank.com/profile/madhuaravind21",
+  leetcode: "https://leetcode.com/u/Madhuaravind/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +52,22 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Full Stack Developer & Data Analyst",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Building responsive and dynamic web apps using HTML, CSS, JavaScript, and React"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Designing efficient databases and backend systems using MySQL and APIs"
+    ),
+    emoji(
+      "⚡ Building interactive dashboards and data pipelines using Python and Tableau"
+    ),
+    emoji(
+      "⚡ Working on machine learning projects including regression, classification, and clustering"
+    ),
+    emoji(
+      "⚡ Applying statistical models and algorithms to drive decision-making"
     )
   ],
 
@@ -73,10 +84,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -89,32 +96,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "tableau",
+      fontAwesomeClassname: "fas fa-chart-bar"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +117,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "M KUMARASAMY COLLEGE OF ENGINEERING",
+      logo: require("./assets/images/mkce_logo.jpg"),
+      subHeader: "Bachelor of Engineering in Computer Science and Engineering (Artificial Intelligence and Machine Learning)",
+      duration: "August 2023 - April 2027",
+      desc: "Participated in the research and published 2 papers.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Completed advanced coursework in Machine Learning, Data Structures, and Artificial Intelligence",
+        "Participated in hackathons and collaborative projects on AI-driven data analysis"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      schoolName: "GNANASAMBANDAR MATRICULATION HIGHER SECONDARY SCHOOL",
+      logo: require("./assets/images/gmhss_logo.jpg"),
+      subHeader: "Computer Science",
+      duration: "June 2022 - April 2023",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      descBullets: ["Excelled in Mathematics, Programming Fundamentals, and Computer Science, achieving top 10% rank"]
     }
   ]
 };
@@ -153,15 +144,23 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Python & Data Analysis", //Insert stack or technology you have experience in
+      progressPercentage: "85%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "JavaScript & React",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Backend & Databases (Node.js, MySQL)",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Machine Learning (Scikit-learn, Pandas)",
+      progressPercentage: "65%"
+    },
+    {
+      Stack: "Visualization (Tableau)",
       progressPercentage: "60%"
     }
   ],
@@ -174,29 +173,29 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "IBM Cloud & AI",
+      company: "Edunet Foundation",
+      companylogo: require("./assets/images/edunet.png"),
+      date: "Jul 2023 – Present",
+      desc: "Analyzed data to engage and improve engagement metrics.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Reduced manual effort by 60% using Python & Pandas",
+        "Built BI dashboards to track key learning KPIs"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Data Analyst Intern",
+      company: "Pantech E Learning Pvt Ltd",
+      companylogo: require("./assets/images/pantech.jpeg"),
+      date: "December 2024 – May 2025",
+      desc: "Automated data cleaning/reporting, reducing manual effort by 60% using Python & Pandas. Built BI dashboards to track key learning KPIs."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Frontend Developer Intern",
+      company: "IBM",
+      companylogo: require("./assets/images/ibm.jpg"),
+      date: "Jan 2023 – Feb 2023",
+      desc: "Developed responsive frontend interfaces using HTML, CSS, and JavaScript, contributing to IBM's web applications and improving user experience through modern UI/UX practices."
     }
   ]
 };
@@ -213,28 +212,71 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Some of my notable projects from GitHub",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/zomato.jpg"),
+      projectName: "Zomato Data Analysis",
+      projectDesc: "Data analysis project on Zomato dataset using Python, Pandas, and visualization techniques to derive insights.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View on GitHub",
+          url: "https://github.com/Madhuarvind/zomato-data-analysis"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/smartbite.jpeg"),
+      projectName: "Smartbite",
+      projectDesc: "AI Powered Health Meal Suggestion App based on user preferences, built with Python.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View on GitHub",
+          url: "https://github.com/Madhuarvind/Smartbite"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/datapre.jpg.png"),
+      projectName: "Data Preprocessing",
+      projectDesc: "Implementation of data preprocessing techniques in Python for machine learning pipelines.",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/Madhuarvind/Data-preprocessing"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/inventory.jpg"),
+      projectName: "InventoryPro",
+      projectDesc: "An inventory management system for tracking stock, orders, and sales efficiently.",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/Madhuarvind/InventoryPro"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/store.png"),
+      projectName: "Retail Sales Analysis",
+      projectDesc: "Data analysis project focusing on retail sales trends, forecasting, and insights using Python and visualization tools.",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/Madhuarvind/Retail_sales_analysis"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/codeai.png"),
+      projectName: "Code Challenge AI",
+      projectDesc: "AI-powered solutions to coding challenges, implementing algorithms and machine learning models.",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/Madhuarvind/Code_Challenge_AI"
         }
       ]
     }
@@ -252,50 +294,98 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "Google Data Analytics Professional Certificate",
+      subtitle: "Professional Certificate in Google Data Analytics from Coursera",
+      image: require("./assets/images/google.jpg"),
+      imageAlt: "Google Data Analytics Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View Certificate",
+          url: "https://www.coursera.org/account/accomplishments/professional-cert/certificate/G8705L6G8OLK"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      title: "Python for Data Science",
+      subtitle: "NPTEL Online Certification in Python for Data Science",
+      image: require("./assets/images/nptel.jpg"),
+      imageAlt: "NPTEL Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Certificate",
+          url: "https://archive.nptel.ac.in/content/noc/NOC25/SEM1/Ecertificates/106/noc25-cs17/Course/NPTEL25CS17S124900043404287557.pdf"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "GUVI Certificate",
+      subtitle: "Certificate from GUVI in a relevant course",
+      image: require("./assets/images/guvi.png"),
+      imageAlt: "GUVI Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Verify Certificate",
+          url: "https://www.guvi.in/verify-certificate?id=n1ia71x762M819p165"
+        }
+      ]
+    },
+    {
+      title: "MongoDB University Certificate",
+      subtitle: "Certificate from MongoDB University",
+      image: require("./assets/images/mongodb.webp"),
+      imageAlt: "MongoDB Logo",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://learn.mongodb.com/c/ALfhHsoSRamKOD6823sWpg"
+        }
+      ]
+    },
+    {
+      title: "IBM Data Science Certificate",
+      subtitle: "Certificate from Cognitive Class (IBM) in Data Science",
+      image: require("./assets/images/ibm.jpg"),
+      imageAlt: "IBM Logo",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://courses.cognitiveclass.ai/certificates/2a04012f6eac46428c2af0114d4c9864"
+        }
+      ]
+    },
+    {
+      title: "Data Science Professional Certificate",
+      subtitle: "Professional Certificate in Data Science from Oracle",
+      image: require("./assets/images/oracle.jpg"),
+      imageAlt: "Data Science Certificate Logo",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://drive.google.com/file/d/1YT0Haa_ar0PcRThIlJ7_zS023tcpqxbX/view?usp=drive_link"
+        }
+      ]
+    },
+    {
+      title: "Machine Learning Certificate",
+      subtitle: "Certificate in Machine Learning with Python",
+      image: require("./assets/images/cognitive.jpg"),
+      imageAlt: "Machine Learning Certificate Logo",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://drive.google.com/file/d/1a1q98044xCxuFO__6mUTSXkKU28fUJio/view?usp=drive_link"
+        }
+      ]
+    },
+    {
+      title: "Digital Analytics & Regression Certificate",
+      subtitle: "Certificate Digital Analytics & Regression",
+      image: require("./assets/images/cognitive.jpg"),
+      imageAlt: "Digital Analytics & Regression Certificate Logo",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://drive.google.com/file/d/1RFJ-bnHvTRwl8eVOFJcAQHA_vxLcKBkx/view?usp=drive_link"
         }
       ]
     }
@@ -309,19 +399,19 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@madhuaravind21/data-analysis-with-python",
+      title: "Data Analysis with Python and Pandas",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Exploring data analysis techniques using Python and Pandas for real-world insights and visualization."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://medium.com/@madhuaravind21/building-bi-dashboards",
+      title: "Building Interactive BI Dashboards",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "How to create interactive dashboards with Tableau and Python to track key metrics and KPIs."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -330,33 +420,13 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  display: false
 };
 
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: true // Set false to hide this section, defaults to true
+  display: false
 };
 
 // Resume Section
@@ -372,8 +442,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91 7904235240",
+  email_address: "madhuaravind21@gmail.com"
 };
 
 // Twitter Section
