@@ -399,13 +399,13 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: true, // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://medium.com/@madhuaravind21/data-analysis-with-python",
-      title: "Data Analysis with Python and Pandas",
+      url: "https://medium.com/@madhuaravind21/the-10-most-in-demand-tech-skills-to-learn-in-2025-68ad41023c16",
+      title: "The 10 Most In-Demand Tech Skills to Learn in 2025",
       description:
-        "Exploring data analysis techniques using Python and Pandas for real-world insights and visualization."
+        "Exploring the top tech skills that will be in high demand in 2025, including AI, data science, cloud computing, and more."
     },
     {
       url: "https://medium.com/@madhuaravind21/building-bi-dashboards",
