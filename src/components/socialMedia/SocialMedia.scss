@@ -64,6 +64,14 @@
   background-color: $kaggle;
 }
 
+.hackerrank i {
+  background-color: #2E8B57; /* Green for HackerRank */
+}
+
+.leetcode i {
+  background-color: #F0932B; /* Orange for LeetCode */
+}
+
 .instagram i {
   background-color: $instagram;
 }
@@ -78,7 +86,9 @@
 .instagram i:hover,
 .stack-overflow i:hover,
 .kaggle i:hover,
-.medium i:hover {
+.medium i:hover,
+.hackerrank i:hover,
+.leetcode i:hover {
   background-color: $textColor;
 }
 

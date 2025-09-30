@@ -215,6 +215,32 @@ const bigProjects = {
   subtitle: "Some of my notable projects from GitHub",
   projects: [
     {
+      image: require("./assets/images/talkheal.png"),
+      projectName: "TalkHeal",
+      projectDesc: "A platform for mental health support and therapy sessions, connecting users with professionals.",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/Madhuarvind/TalkHeal"
+        },
+        {
+          name: "Live Site",
+          url: "https://talkheal.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/airesume.jpg"),
+      projectName: "AI-powered Resume Screener Bot",
+      projectDesc: "An AI bot that screens resumes to help recruiters find the best candidates efficiently.",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/Madhuarvind/AI-powered-Resume-Screener-Bot"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/zomato.jpg"),
       projectName: "Zomato Data Analysis",
       projectDesc: "Data analysis project on Zomato dataset using Python, Pandas, and visualization techniques to derive insights.",
@@ -277,6 +303,17 @@ const bigProjects = {
         {
           name: "View on GitHub",
           url: "https://github.com/Madhuarvind/Code_Challenge_AI"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/smartedu.jpeg"),
+      projectName: "Smart Edu System",
+      projectDesc: "An AI-powered educational system designed to provide smart learning experiences and personalized education.",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/Madhuarvind/Smart-Edu-System"
         }
       ]
     }
@@ -344,7 +381,7 @@ const achievementSection = {
     {
       title: "IBM Data Science Certificate",
       subtitle: "Certificate from Cognitive Class (IBM) in Data Science",
-      image: require("./assets/images/ibm.jpg"),
+      image: require("./assets/images/ibmcompany.jpg"),
       imageAlt: "IBM Logo",
       footerLink: [
         {
@@ -388,6 +425,54 @@ const achievementSection = {
           url: "https://drive.google.com/file/d/1RFJ-bnHvTRwl8eVOFJcAQHA_vxLcKBkx/view?usp=drive_link"
         }
       ]
+    },
+    {
+      title: "DataCamp Certificate",
+      subtitle: "Certificate from DataCamp",
+      image: require("./assets/images/datacamp.jpg"),
+      imageAlt: "DataCamp Logo",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://www.datacamp.com/completed/statement-of-accomplishment/track/753d66e0323865e93b0e46a4775849ffd3ab7ecc"
+        }
+      ]
+    },
+    {
+      title: "Microsoft Learn Achievement",
+      subtitle: "Achievement from Microsoft Learn",
+      image: require("./assets/images/microsoft.jpeg"),
+      imageAlt: "Microsoft Logo",
+      footerLink: [
+        {
+          name: "View Achievement",
+          url: "https://learn.microsoft.com/en-us/users/MadhuaravindP-5437/achievements/BCFXKBLD?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+        }
+      ]
+    },
+    {
+      title: "IBM Certificate",
+      subtitle: "Certificate from Cognitive Class (IBM)",
+      image: require("./assets/images/ibmcompany.jpg"),
+      imageAlt: "IBM Logo",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://courses.cognitiveclass.ai/certificates/2a04012f6eac46428c2af0114d4c9864"
+        }
+      ]
+    },
+    {
+      title: "DataCamp Course Completion",
+      subtitle: "Completed course on DataCamp",
+      image: require("./assets/images/datacamp.jpg"),
+      imageAlt: "DataCamp Logo",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://www.datacamp.com/completed/statement-of-accomplishment/course/791a70fe728946904e1b7f7076ce04abc4a55420"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -399,7 +484,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: true, // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: false, // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://medium.com/@madhuaravind21/the-10-most-in-demand-tech-skills-to-learn-in-2025-68ad41023c16",
